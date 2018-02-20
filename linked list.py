@@ -57,14 +57,3 @@ class LinkedList:
                 last_node.next = cur_node.next
                 return
             cur_idx +=1
-
-my_list = LinkedList()
-my_list.Append(1)
-my_list.Append(2)
-my_list.Append(3)
-my_list.Append(4)
-
-my_list.Display()
-my_list.Erase(2)
-my_list.Display()
-
